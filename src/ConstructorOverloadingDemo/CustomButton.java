@@ -5,7 +5,9 @@ import javax.swing.*;
 public class CustomButton extends JButton {
     public CustomButton(){
         setText("Save");
-        setToolTipText("This is Save Button");
         setVisible(true);
+    }
+    public CustomButton(String text){
+        setText(text);
     }
 }
