@@ -1,6 +1,6 @@
 package EncapsulationDemo.bankAccount;
 
-class BankAccount {
+public class BankAccount {
     private double balance;
 
     public double getBalance() {
@@ -17,5 +17,6 @@ class BankAccount {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
         }
+        System.out.println("Maintaining balance is less than");
     }
 }
